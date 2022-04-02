@@ -1,0 +1,28 @@
+/*
+if wan to chnage color on all li
+li{
+    color:pink;
+}
+
+*/
+
+/*If we want to specific target li*/
+li:first-child{
+    color: pink;
+
+}
+/*will change color only first line of li*/
+
+li:last-child{
+    color:red;
+    
+}
+/*will change color only last line of li*/
+
+
+/*if we want to target only this li to be all same color--we give a class*/
+/* we target change color inside this div on <p> and <li> see below*/
+
+.li-allsamecolor li,p{
+color: violet;
+}

@@ -1,0 +1,20 @@
+a:link{
+    color:purple;
+}
+
+a:hover{
+    color:red;
+}
+/*hover will change color when use mouse to put it*/
+
+a:active{
+    color:yellow;
+}
+/*aqua will chnage color when click--click mean active*/
+
+/* if we wanat to target only one specific <a> use class -see below*/
+
+.box a:visited{
+    color:darkorange;
+}
+/*visited color will change when already click and use the link--show already clicked and change color*/
